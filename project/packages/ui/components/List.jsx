@@ -6,7 +6,7 @@ export const List = ({ data }) => {
     <>
       <p>List</p>
       <div className={'list'}>
-        {data.map(item => (<div key={item.url}>{item.name}
+        {data.map(item => (<div className={'list-item'} key={item.url}>{item.name}
         </div>))}
       </div>
     </>
